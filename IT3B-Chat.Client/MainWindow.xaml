@@ -5,8 +5,18 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:IT3B_Chat.Client"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        Title="MainWindow" Height="450" Width="800" Foreground="{x:Null}" Background="#FF1A1A1A">
     <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="1*"/>
+            <RowDefinition Height="4*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="3*"/>
+            <ColumnDefinition Width="5*"/>
+        </Grid.ColumnDefinitions>
+        <Label Grid.Column="1" Content="Chat" Margin="10,10,10,10" Background="{x:Null}" Foreground="White" FontSize="32" FontWeight="Bold"/>
+        <Label Content="Chat" Margin="10,10,10,10" Background="{x:Null}" Foreground="White" FontSize="32" FontWeight="Bold"/>
 
     </Grid>
 </Window>

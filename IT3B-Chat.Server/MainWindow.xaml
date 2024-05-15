@@ -17,6 +17,8 @@
         </Grid.ColumnDefinitions>
         <ListBox x:Name="Log_box" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,10,10" Grid.Row="1" BorderBrush="{x:Null}" Foreground="White" Background="#FF4D4D4D"/>
         <Label Content="Server Log" Height="76" Margin="10,0,10,0" VerticalAlignment="Center" FontSize="32" VerticalContentAlignment="Center" FontWeight="Bold" Foreground="White" Background="{x:Null}"/>
+        <Label Content="Chat Log" Height="76" Margin="10,0,10,0" VerticalAlignment="Center" FontSize="32" VerticalContentAlignment="Center" FontWeight="Bold" Foreground="White" Background="{x:Null}" Grid.Column="1"/>
+        <ListBox x:Name="Chat_box" d:ItemsSource="{d:SampleData ItemCount=5}" Margin="10,10,10,10" Grid.Row="1" BorderBrush="{x:Null}" Foreground="White" Background="#FF4D4D4D" Grid.Column="1"/>
 
     </Grid>
 </Window>
